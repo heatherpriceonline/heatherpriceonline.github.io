@@ -1,5 +1,5 @@
 ---
-title: All Posts
-permalink: /posts/
+title: Blog
+permalink: /blog/
 layout: postlist
 ---

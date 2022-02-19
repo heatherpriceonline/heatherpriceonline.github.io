@@ -1,43 +1,4 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
+{% include header.html %}
+<main id="content" class="main-content" role="main">{{ content }}</main>
 
-{% seo %}
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    {% include head-custom.html %}
-  </head>
-  <body>
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
-
-    <header class="page-header" role="banner">
-      <h1 class="post-title">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="post-date">{{ page.date | default: site.date | date: "%B %-d, %Y" }}</h2>
-      {% if page.categories %}
-        {% for category in page.categories %}
-            <a href="/{{category}}" class="btn">{{category}}</a>
-        {% endfor %}
-      {% endif %}
-      
-    </header>
-    <sidebar>
-        <ul>
-            {% for page in site.pages %}
-                <a href="{{page.url}}">{{page.title}}</a>
-            {% endfor%}
-        </ul>
-    </sidebar>
-    <main id="content" class="main-content" role="main">
-        {{ content }}
-    </main>
-    <footer>
-      <a href="https://github.com/{{ site.github_username }}" target="_blank">Github</a>
-      <a href="https://twitter.com/{{site.twitter_username}}" target="_blank">Twitter</a>
-    </footer>
-  </body>
-</html>
+{% include footer.html %}

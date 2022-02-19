@@ -3,9 +3,15 @@
 
 @import '{{ site.theme }}';
 .page-header {
-  color: #92dce5;
-  background-color: #0f7173;
-  background-image: none;
+  color: #0f7173;
+  position: relative;
+  background-color: #f1e4e8;
+  background-image: url('../images/background.jpg');
+  height: 75vh;
+  background-size: 100vw 80vh;
+  a {
+    color: #b97375;
+  }
 }
 a {
   color: #b97375;
@@ -14,16 +20,43 @@ body {
   background-color: #f1e4e8;
 }
 h2 {
-  color: #ceb1be;
+  color: #b97375;
 }
 h3 {
   color: #b97375;
 }
 .main-content h2 {
-  color: #ceb1be;
+  color: #b97375;
 }
 .main-content h3 {
   color: #b97375;
+}
+
+navigation{
+  position: absolute;
+  right: 20px;
+  top: 0;
+}
+
+.custom-shape-divider-bottom-1645308079 {
+  position: absolute;
+  bottom: 25vh;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1645308079 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-bottom-1645308079 .shape-fill {
+  fill: #f1e4e8;
 }
 .card {
   width: 600px;
