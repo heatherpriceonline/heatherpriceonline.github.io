@@ -28,7 +28,7 @@ twitter_username: priceh91
 github_username: heatherpriceonline
 
 # Build settings
-theme: minima
+theme: blog-theme-0.1.0
 plugins:
   - jekyll-feed
 # Exclude from processing.
