@@ -2,34 +2,48 @@
 ---
 
 @import '{{ site.theme }}';
+$dark-purple: #370031;
+$independence: #3A435E;
+$thistle: #CEB1BE;
+$old-rose: #B97375;
+$russian-voilet:#0B0033;
+$charcoal: #313E50;
+$lavendar-blush: #F1E4E8;
+
 .page-header {
-  color: #0f7173;
+  color: $independence;
   position: relative;
-  background-color: #f1e4e8;
+  background-color: $lavendar-blush;
   background-image: url('../images/background.jpg');
   height: 75vh;
   background-size: 100vw 80vh;
   a {
-    color: #b97375;
+    color: $old-rose;
   }
 }
 a {
-  color: #b97375;
+  color: $old-rose;
 }
 body {
-  background-color: #f1e4e8;
+  background-color: $lavendar-blush;
 }
 h2 {
-  color: #b97375;
+  color: $old-rose;
 }
 h3 {
-  color: #b97375;
+  color: $old-rose;
 }
 .main-content h2 {
-  color: #b97375;
+  color: $old-rose;
 }
 .main-content h3 {
-  color: #b97375;
+  color: $old-rose;
+}
+.main-content small{
+  color: $independence;
+}
+.main-content p{
+  color: $charcoal;
 }
 
 navigation{
@@ -56,7 +70,7 @@ navigation{
 }
 
 .custom-shape-divider-bottom-1645308079 .shape-fill {
-  fill: #f1e4e8;
+  fill: $lavendar-blush;
 }
 .card {
   width: 600px;
@@ -65,7 +79,7 @@ navigation{
   border-style: hidden;
   border-radius: 16px;
   background: white;
-  filter: drop-shadow(5px 5px 6px #b97375);
+  filter: drop-shadow(5px 5px 6px $old-rose);
   position: absolute;
   top: 35%;
   left: 35%;

@@ -2,6 +2,7 @@
 title: Business Card
 permalink: /card/
 layout: card
+order: 3
 ---
 
 ![headshot](/assets/images/headshot.jpg)

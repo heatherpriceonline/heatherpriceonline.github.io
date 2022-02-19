@@ -27,6 +27,8 @@ url: '' # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: priceh91
 github_username: heatherpriceonline
 linkedin_username: heather-price-csm-40803761
+collections: 
+  - projects
 
 # Build settings
 remote_theme: pages-themes/cayman@v0.2.0

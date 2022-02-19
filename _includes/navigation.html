@@ -1,7 +1,8 @@
 <navigation>
   <ul>
-    {% for page in site.pages %}
-    <a href="{{page.url}}">{{page.title}}</a>
+    {% assign sorted_pages = site.pages | sort:"order" %}
+    {% for page in sorted_pages %}
+    <a href="{{page.url}}" class="btn">{{page.title}}</a>
     {% endfor%}
   </ul>
 </navigation>
