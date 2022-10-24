@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+  <meta charset="UTF-8" />
+  <script
+    src="https://kit.fontawesome.com/8c96c9efba.js"
+    crossorigin="anonymous"
+  ></script>
+
+  {% seo %}
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    rel="preload"
+    href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap"
+    as="style"
+    type="text/css"
+    crossorigin
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#157878" />
+  <meta
+    name="apple-mobile-web-app-status-bar-style"
+    content="black-translucent"
+  />
+  <link
+    rel="stylesheet"
+    href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"
+  />
+  {% include head-custom.html %}
+</head>
+<body>
+  <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+  <header class="page-header" role="banner">
+    {% include navigation.html %}
+    <h1 class="project-name">
+      {{ page.title | default: site.title | default: site.github.repository_name
+      }}
+    </h1>
+    <h2 class="project-tagline">
+      {{ page.description | default: site.description | default:
+      site.github.project_tagline }}
+    </h2>
+    {% if site.github.is_project_page %}
+    <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+    {% endif %}
+
+    <a href="/card" class="btn">Business Card</a>
+
+    {% if site.show_downloads %}
+    <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
+    <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+    {% endif %}
+  </header>
+  <div class="custom-shape-divider-bottom-1645308079">
+    <svg
+      data-name="Layer 1"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1200 120"
+      preserveAspectRatio="none"
+    >
+      <path
+        d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+        class="shape-fill"
+      ></path>
+    </svg>
+  </div>

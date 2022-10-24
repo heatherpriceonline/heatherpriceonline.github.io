@@ -1,0 +1,11 @@
+{% include header.html %}
+<main id="content" class="main-content" role="main">
+  {% for post in site.posts %}
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  {{ post.excerpt }}
+  <small>{{ post.date | date: "%B %-d, %Y" }}</small>
+  {% if site.posts.length > 1 %}
+  <hr />
+  {% endif %} {% endfor %}
+</main>
+{% include footer.html %}
