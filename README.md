@@ -1,5 +1,9 @@
-# Zee Blog
+# Heather's Online Portfolio
 
-welcome to the source code of my blog about all sorts of random junk
+Welcome to the repo that's holding the code for my portfolio site.
 
-_inspired to start this because of the book Show Your Work_
+I'm streaming the build on [twitch](https://twitch.tv/codewithheather) - I'd be grateful if you went to check it out.
+
+## About Me
+
+Hi, I'm Heather - I'm a Software Engineer with 11 years of professional experience, and I'm looking to build some cool things!
