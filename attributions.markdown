@@ -1,1 +1,0 @@
-Header Photo by [Meiying Ng](https://unsplash.com/@meiying?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/pink?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
