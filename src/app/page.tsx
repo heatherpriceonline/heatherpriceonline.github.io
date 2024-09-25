@@ -1,6 +1,6 @@
-import { Twitch, Youtube } from "iconic-react";
-import Image from "next/image";
-import imageAsset from "./public/githubIcon.png";
+import { Twitch, Youtube } from 'iconic-react';
+import Image from 'next/image';
+import imageAsset from './public/githubIcon.png';
 
 export default function Home() {
   return (
@@ -9,13 +9,13 @@ export default function Home() {
         <h1>UNDER CONSTRUCTION</h1>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a href="https://twitch.tv/codewithheather">
+        <a href="https://twitch.tv/codewithheather" target="_blank">
           <Twitch />
         </a>
-        <a href="https://www.youtube.com/@codewithheather3510">
+        <a href="https://www.youtube.com/@codewithheather3510" target="_blank">
           <Youtube />
         </a>
-        <a href="https://github.com/heatherpriceonline">
+        <a href="https://github.com/heatherpriceonline" target="_blank">
           <Image src={imageAsset} alt="github icon" width={24} height={24} />
         </a>
       </footer>
