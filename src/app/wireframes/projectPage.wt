@@ -1,0 +1,136 @@
+include components-v1
+
+Computer id=wintest title="Project Title"
+  MenuBar
+    MenuCategory category="Welcome"
+    MenuCategory category="Projects"
+    MenuCategory category="Contact"
+  section style="padding: 24px"
+    h1 style="text-align:center"
+      "Project Name"
+    p
+      "Introduction to project."
+    p
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque feugiat varius elit. In sed semper purus, feugiat suscipit risus. Nam finibus urna erat, id molestie dolor ultricies sit amet. Nunc ex orci, ultrices id ipsum nec, euismod dapibus lorem. Proin ullamcorper lacinia leo id malesuada. Aliquam ac tincidunt nisi. Proin at mauris metus. Phasellus ultricies porta mattis. Maecenas mollis ipsum sed leo accumsan, quis varius leo luctus. Vestibulum lobortis ullamcorper metus at feugiat. Pellentesque sit amet eros erat. Aliquam ultrices lobortis bibendum. Nulla fermentum nisl sed dolor auctor tristique."
+    img src="http://placeholder.co/300"
+    p
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque feugiat varius elit. In sed semper purus, feugiat suscipit risus. Nam finibus urna erat, id molestie dolor ultricies sit amet. Nunc ex orci, ultrices id ipsum nec, euismod dapibus lorem. Proin ullamcorper lacinia leo id malesuada. Aliquam ac tincidunt nisi. Proin at mauris metus. Phasellus ultricies porta mattis. Maecenas mollis ipsum sed leo accumsan, quis varius leo luctus. Vestibulum lobortis ullamcorper metus at feugiat. Pellentesque sit amet eros erat. Aliquam ultrices lobortis bibendum. Nulla fermentum nisl sed dolor auctor tristique."
+    img src="http://placeholder.co/300"
+  section 
+    h3
+      "Relevant Links"  
+    section style="display:flex; flex-direction: column;"
+      a "GitHub project"
+      a "Where it may be hosted"
+  section style="border:1px solid black; padding: 16px"
+    h2
+      "Blogs related to this project"
+        
+    section style="display:flex; align-items: center; "
+      .back style="width: 5vw; font-size: 42px" "<"
+      .blog style="width:30vw"
+        h3
+          "Title"
+        p "00/00/00"
+        p
+          "blog snippet"
+      .blog style="width:30vw"
+        h3
+          "Title"
+        p "00/00/00"
+        p
+          "blog snippet"
+      .blog style="width:30vw"
+        h3
+          "Title"
+        p "00/00/00"
+        p
+          "blog snippet"
+      .forward style="width: 5vw; font-size: 42px" ">"
+  footer style="display:flex"
+    section style="width: 30vw"
+      h2
+      "Contact Heather"
+      Input label="Name *" value="John Smith"
+      Input label="Email *" value="test@test.com"
+      TextArea label="Message *" value="Message"
+      button "Send"
+    section style="width: 30vw" 
+      h3 "Navigation"
+      section style="display: flex; flex-direction: column"
+        a "Contact Heather"
+        a "Projects"
+    setcion style="width:30vw"
+      h3 "Heather Price"
+      section style="display:flex; flex-direction: row;"
+        img src="http://placehold.co/50"
+        section style="display: flex; flex-direction: column"
+          a style="padding:16px" "hello@heatherprice.online"
+          section style="padding:0 16px; display: flex; flex-direction: row"
+            a "⭐"
+            a "⭐"
+            a "⭐"
+            a "⭐"
+            a "⭐"
+        
+Phone id="phone"
+  MenuBar
+    MenuCategory category="Welcome"
+    MenuCategory category="Projects"
+    MenuCategory category="Contact"
+  section style="padding: 24px"
+    h1 style="text-align:center"
+      "Project Name"
+    p
+      "Introduction to project."
+    p
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque feugiat varius elit. In sed semper purus, feugiat suscipit risus. Nam finibus urna erat, id molestie dolor ultricies sit amet. Nunc ex orci, ultrices id ipsum nec, euismod dapibus lorem. Proin ullamcorper lacinia leo id malesuada. Aliquam ac tincidunt nisi. Proin at mauris metus. Phasellus ultricies porta mattis. Maecenas mollis ipsum sed leo accumsan, quis varius leo luctus. Vestibulum lobortis ullamcorper metus at feugiat. Pellentesque sit amet eros erat. Aliquam ultrices lobortis bibendum. Nulla fermentum nisl sed dolor auctor tristique."
+    img src="http://placeholder.co/200"
+    p
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque feugiat varius elit. In sed semper purus, feugiat suscipit risus. Nam finibus urna erat, id molestie dolor ultricies sit amet. Nunc ex orci, ultrices id ipsum nec, euismod dapibus lorem. Proin ullamcorper lacinia leo id malesuada. Aliquam ac tincidunt nisi. Proin at mauris metus. Phasellus ultricies porta mattis. Maecenas mollis ipsum sed leo accumsan, quis varius leo luctus. Vestibulum lobortis ullamcorper metus at feugiat. Pellentesque sit amet eros erat. Aliquam ultrices lobortis bibendum. Nulla fermentum nisl sed dolor auctor tristique."
+    img src="http://placeholder.co/200"
+  section 
+    h3
+      "Relevant Links"  
+    section style="display:flex; flex-direction: column;"
+      a "GitHub project"
+      a "Where it may be hosted"
+  section style="border:1px solid black; padding: 16px"
+    h2
+      "Blogs related to this project"
+        
+    section style="display:flex; align-items: center; "
+      .back style="width: 5vw; font-size: 42px" "<"
+      .blog style="width:30vw"
+        h3
+          "Title"
+        p "00/00/00"
+        p
+          "blog snippet"
+      .forward style="width: 5vw; font-size: 42px" ">"
+    
+  footer
+    section
+      h2
+      "Contact Heather"
+      Input label="Name *" value="John Smith"
+      Input label="Email *" value="test@test.com"
+      TextArea label="Message *" value="Message"
+      button "Send"
+    section
+      h3 "Navigation"
+      section style="display: flex; flex-direction: column"
+        a "Contact Heather"
+        a "Projects"
+    setcion
+      h3 "Heather Price"
+      section style="display:flex; flex-direction: row;"
+        img src="http://placehold.co/50"
+        section style="display: flex; flex-direction: column"
+          a style="padding:16px" "hello@heatherprice.online"
+          section style="padding:0 16px; display: flex; flex-direction: row"
+            a "⭐"
+            a "⭐"
+            a "⭐"
+            a "⭐"
+            a "⭐"

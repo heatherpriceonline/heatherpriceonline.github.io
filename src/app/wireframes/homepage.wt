@@ -1,0 +1,141 @@
+include components-v1
+
+Computer id=wintest title=Homepage
+  MenuBar
+    MenuCategory category="Welcome"
+    MenuCategory category="Projects"
+    MenuCategory category="Contact"
+    MenuCategory category="Blog"
+  section style="height: 40vh; padding: 24px"
+    h1 style="text-align:center"
+      "Welcome"
+    p
+      "Welcome to my portfolio, you can check out my work below, "
+      a "contact me,"
+      " or download my resume" 
+      a " here."
+    # button "Contact Me"
+    section 
+      h1 "Placeholder for animations?"
+
+  section style="border:1px solid black; padding: 16px"
+    h2
+      "Recent Projects"
+      button "⭐"
+    section style="display:flex; align-items: center; "
+      .back style="width: 5vw; font-size: 42px" "<"
+      .project style="width:30vw"
+        h3
+          "Project Name"
+        img src="https://placehold.co/100"
+        p
+          "project description"
+      .project style="width:30vw"
+        h3
+          "Project Name"
+        img src="https://placehold.co/100"
+        p
+          "project description"
+      .project style="width:30vw"
+        h3
+          "Project Name"
+        img src="https://placehold.co/100"
+        p
+          "project description"
+      .forward style="width: 5vw; font-size: 42px" ">"
+  section 
+    h2
+      "About Heather"
+    section style="display:flex"
+      img style="margin:16px" src="http://placehold.co/200"
+      p "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque feugiat varius elit. In sed semper purus, feugiat suscipit risus. Nam finibus urna erat, id molestie dolor ultricies sit amet. Nunc ex orci, ultrices id ipsum nec, euismod dapibus lorem. Proin ullamcorper lacinia leo id malesuada. Aliquam ac tincidunt nisi. Proin at mauris metus. Phasellus ultricies porta mattis. Maecenas mollis ipsum sed leo accumsan, quis varius leo luctus. Vestibulum lobortis ullamcorper metus at feugiat. Pellentesque sit amet eros erat. Aliquam ultrices lobortis bibendum. Nulla fermentum nisl sed dolor auctor tristique."
+  
+  footer style="display:flex"
+    section style="width: 30vw"
+      h2
+      "Contact Heather"
+      Input label="Name *" value="John Smith"
+      Input label="Email *" value="test@test.com"
+      TextArea label="Message *" value="Message"
+      button "Send"
+    section style="width: 30vw" 
+      h3 "Navigation"
+      section style="display: flex; flex-direction: column"
+        a "Contact Heather"
+        a "Projects"
+    setcion style="width:30vw"
+      h3 "Heather Price"
+      section style="display:flex; flex-direction: row;"
+        img src="http://placehold.co/50"
+        section style="display: flex; flex-direction: column"
+          a style="padding:16px" "hello@heatherprice.online"
+          section style="padding:0 16px; display: flex; flex-direction: row"
+            a "⭐"
+            a "⭐"
+            a "⭐"
+            a "⭐"
+            a "⭐"
+        
+Phone id="phone"
+  MenuBar
+    MenuCategory category="Welcome"
+    MenuCategory category="Projects"
+    MenuCategory category="Contact"
+    MenuCategory category="Blog"
+  section style="height: 40vh; padding: 24px"
+    h1 style="text-align:center"
+      "Welcome"
+    p
+      "Welcome to my portfolio, you can check out my work below, "
+      a "contact me,"
+      " or download my resume" 
+      a " here."
+    # button "Contact Me"
+    section 
+      h1 "Placeholder for animations?"
+
+  section style="border:1px solid black; padding: 16px"
+    h2
+      "Recent Projects"
+      button "⭐"
+    section style="display:flex; align-items: center; "
+      .back style="width: 5vw; font-size: 24px" "<"
+      .project
+        h3
+          "Project Name"
+        img src="https://placehold.co/100"
+        p
+          "project description"
+      .forward style="width: 5vw; font-size: 24px" ">"
+  section 
+    h2
+      "About Heather"
+    section style="padding: 16px"
+      img src="http://placehold.co/200"
+      p "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque feugiat varius elit. In sed semper purus, feugiat suscipit risus. Nam finibus urna erat, id molestie dolor ultricies sit amet. Nunc ex orci, ultrices id ipsum nec, euismod dapibus lorem. Proin ullamcorper lacinia leo id malesuada. Aliquam ac tincidunt nisi. Proin at mauris metus. Phasellus ultricies porta mattis. Maecenas mollis ipsum sed leo accumsan, quis varius leo luctus. Vestibulum lobortis ullamcorper metus at feugiat. Pellentesque sit amet eros erat. Aliquam ultrices lobortis bibendum. Nulla fermentum nisl sed dolor auctor tristique."
+  hr
+  footer
+    section
+      h2
+      "Contact Heather"
+      Input label="Name *" value="John Smith"
+      Input label="Email *" value="test@test.com"
+      TextArea label="Message *" value="Message"
+      button "Send"
+    section 
+      h3 "Navigation"
+      section style="display: flex; flex-direction: column"
+        a "Contact Heather"
+        a "Projects"
+    setcion
+      h3 "Heather Price"
+      section style="display:flex; flex-direction: row;"
+        img src="http://placehold.co/50"
+        section style="display: flex; flex-direction: column"
+          a style="padding:16px" "hello@heatherprice.online"
+          section style="padding:0 16px; display: flex; flex-direction: row"
+            a "⭐"
+            a "⭐"
+            a "⭐"
+            a "⭐"
+            a "⭐"
