@@ -20,9 +20,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-  color: #fff;
+  /* color: #fff;
   text-shadow: 0 0 5px #fff, 0 0 7px #fff, 0 0 15px #fff, 0 0 21px #0fa,
-    0 0 41px #0fa, 0 0 50px #0fa, 0 0 60px #0fa, 0 0 140px #0fa;
+    0 0 41px #0fa, 0 0 50px #0fa, 0 0 60px #0fa, 0 0 140px #0fa; */
   font-size: 4.2rem;
 }
 
