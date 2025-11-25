@@ -1,22 +1,22 @@
-import type { Metadata } from "next";
-import localFont from "next/font/local";
-import { Kode_Mono } from "next/font/google";
-import "./globals.css";
+import type { Metadata } from 'next';
+import localFont from 'next/font/local';
+import { Kode_Mono } from 'next/font/google';
+import './globals.css';
 
 const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+  src: './fonts/GeistMonoVF.woff',
+  variable: '--font-geist-mono',
+  weight: '100 900',
 });
 
 const kodeMono = Kode_Mono({
-  subsets: ["latin"],
-  display: "swap",
+  subsets: ['latin'],
+  display: 'swap',
 });
 
 export const metadata: Metadata = {
-  title: "Heather Price Portfolio",
-  description: "Under Construction",
+  title: 'Heather Scalia Portfolio',
+  description: 'Technical Project Manager portfolio',
 };
 
 export default function RootLayout({
