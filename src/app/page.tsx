@@ -17,9 +17,6 @@ export default function Home() {
         <a href="https://github.com/heatherpriceonline" target="_blank">
           GitHub
         </a>
-        <a href="https://twitch.tv/codewithheather" target="_blank">
-          Twitch
-        </a>
         <a href="https://www.youtube.com/@codewithheather3510" target="_blank">
           Youtube
         </a>
